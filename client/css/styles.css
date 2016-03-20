@@ -1,0 +1,66 @@
+#game-container {
+  padding: 50px;
+}
+
+.board-square {
+  position: relative;
+  height: 100px;
+}
+
+.board-square::after {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  content: 'X';
+}
+
+#upper-left {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#upper-center {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#upper-right {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#middle-left {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#middle-center {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#middle-right {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#bottom-left {
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+
+#bottom-center {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+
+#bottom-right {
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
