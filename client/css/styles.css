@@ -4,63 +4,63 @@
 
 .board-square {
   position: relative;
-  height: 100px;
+  height: 110px;
+  line-height: 100px;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.board-square::after {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  content: 'X';
+.icon-size {
+  font-size: 100px;
 }
 
 #upper-left {
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
 }
 
 #upper-center {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
 }
 
 #upper-right {
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
 }
 
 #middle-left {
-  border-top: 1px solid black;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
 }
 
 #middle-center {
-  border-top: 1px solid black;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
 }
 
 #middle-right {
-  border-top: 1px solid black;
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
 }
 
 #bottom-left {
-  border-right: 1px solid black;
-  border-top: 1px solid black;
+  border-right: 5px solid black;
+  border-top: 5px solid black;
 }
 
 #bottom-center {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  border-top: 1px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-top: 5px solid black;
 }
 
 #bottom-right {
-  border-left: 1px solid black;
-  border-top: 1px solid black;
+  border-left: 5px solid black;
+  border-top: 5px solid black;
 }
